@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+   <body>
+       <div class="container">
+            <div class="text">
+               <h1>Learn to code by<br> watching others</h1>
+               <p>
+                  See how expereienced developers solve problems in real-time.<br> 
+                  Watching scripted tutorials is great, but understanding how <br> 
+                  developers think is invaluable.
+               </p>
+            </div>
+            <div class="right">
+                  <button type="submit">
+                     <strong>Try it free 7 days</strong> then $20/mo. thereafter
+                  </button>
+                  <br>
+               <div class="form-group">
+                  <form id="my-form" name="register" onsubmit="validate(event)">
+                     <input type="text" placeholder="First Name" name="fname" id="fname">
+                     <p id="error-fname"></p>
+                     <input type="text" placeholder="Last Name" name="lname" id="lname">
+                     <p id="error-lname"></p>
+                     <input type="text" placeholder="Email Address" name="email" id="email">
+                     <p id="error-email"></p>
+                     <input type="text" placeholder="Password" name="pwd" id="pwd">
+                     <p id="error-pwd"></p>
+                     <input type="submit" id="sub" value="CLAIM YOUR FREE TRIAL">
+                     <div class="agree">
+                        <strong>
+                           By clicking the button, you are agreeing to our <span>Terms and Services</span>
+                        </strong>
+                     </div>
+                  </form>
+               </div>
+            </div>
+        </div>
+    <script src="query.js"></script>
+   </body>
+</html>
